@@ -1,0 +1,11 @@
+nav {
+  background: #f0f0f0;
+  padding: 10px;
+}
+nav ol {
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  margin-bottom: 5px;
+} 

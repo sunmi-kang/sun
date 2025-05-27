@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="BookId">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Sample E-Book</dc:title>
+    <dc:language>en</dc:language>
+    <dc:identifier id="BookId">urn:uuid:12345</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="page1" href="Text/page1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="style1" href="Styles/style1.css" media-type="text/css"/>
+    <item id="sgcnav" href="Styles/sgc-nav.css" media-type="text/css"/>
+    <item id="script1" href="Misc/script1.js" media-type="application/javascript"/>
+  </manifest>
+  <spine>
+    <itemref idref="page1"/>
+  </spine>
+</package> 
